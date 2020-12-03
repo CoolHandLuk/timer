@@ -1,0 +1,44 @@
+* {
+  font-family: arial;
+}
+body {
+  background-image: url("tlo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+}
+select,
+button {
+  font-size: 30px;
+  padding: 5px 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+button {
+  display: block;
+  padding: 5px 40px;
+  margin: 80px auto;
+  transition: 0.5s;
+  font-size: 30px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+button:hover,
+select:hover {
+  background-color: #000;
+  color: white;
+}
+.result {
+  color: red;
+  font-size: 40px;
+}
+/* .timerdiv {
+  display: none;
+} */
